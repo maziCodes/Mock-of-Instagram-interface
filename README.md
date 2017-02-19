@@ -1,2 +1,2 @@
-# Mock-of-Instagram-interface
-A simple mock of Instagram interface using HTML, CSS, Bootstrap and Javascript 
+# Mock-of-Instagram-UI
+A simple mock of Instagram UI using HTML, CSS, Bootstrap and Javascript 
