@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- Bootstarp css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+	<!-- Main css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<title>Chat</title>
+</head>
+<body>
+	<!-- Nav Bar -->
+   	<nav class="navbar navbar-light bg-faded">
+        <div class="container">
+            <a class="navbar-brand" href="#">mygram</a>
+
+            <div class="search">
+            	<div class="col-md-4 col-md-offset-3">
+					<div class="input-group">
+						<span class="input-group-btn">
+						<button class="btn btn-secondary" type="button"><i class="fa fa-search"></i></button>
+						</span>
+						<input type="text" class="form-control" placeholder="Search">
+					</div>
+				</div>
+			</div>
+
+        	<span class="nav-icons pull-right">
+        		<i class="fa fa-arrows-alt icon"  aria-hidden="true"></i>
+            	<i class="fa fa-heart-o icon" aria-hidden="true"></i>
+            	<i class="fa fa-user icon" aria-hidden="true"></i>
+        	</span>           
+        </div>
+    </nav>
+
+    <!-- post -->
+    <div class="post">
+    	<div class="user-info">
+    	<i class="fa fa-user user-image"></i>
+    	<span class="pull-right">35m</span>
+    	</div>
+    	<img src="assets/img/post1.jpg" width="650" height="400">
+    	<div class="caption">
+    		<span><strong id="count-likes"></strong><strong> likes</strong></span>
+    		<h4>
+    			<strong>brist </strong>
+    			Developer for life...#projaro
+    		</h4>
+    		<p class="default-post"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+    		<hr>
+    		<div>
+    			<span class="like"><i id="heart" class="fa fa-heart-o" onclick="newLikes();"></i></span>
+    			<textarea data-key="13" class="comment" cols="60" rows="1" placeholder="Add comment"></textarea>
+    		</div>
+
+    	</div>
+    </div>
+
+<div class="footer">
+	<footer><strong>Brist &copy;2017</strong></footer>
+</div>
+
+<!-- js -->
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
